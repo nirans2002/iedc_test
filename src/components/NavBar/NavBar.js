@@ -31,6 +31,9 @@ const NavBar = () =>{
           
         </Navbar>
 
+            {/* 
+
+            <!-- sample to be deleted -->
 
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
           <div class="container">
@@ -63,6 +66,9 @@ const NavBar = () =>{
                 </div>
             </div>
         </nav>
+
+        <!-- sample to be deleted -->
+        */}
 
       </div>
     );
