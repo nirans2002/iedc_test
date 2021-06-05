@@ -5,7 +5,9 @@ function App() {
     <div>
     <NavBar></NavBar>
 
+    <p> test if push works</p>
     </div>
+    
   );
 }
 
