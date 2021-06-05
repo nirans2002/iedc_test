@@ -9,6 +9,10 @@ const NavBar = () =>{
         <Navbar bg="light" variant="light">
           <Navbar.Brand  href="#high"><div className="nav-brand">Project10</div></Navbar.Brand>
             <div className="container">
+            <button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1">
+                  <span className="sr-only">Toggle navigation</span>
+                  <span className="navbar-toggler-icon"></span>
+                </button>
               <div className="collapse navbar-collapse" id="navcol-1">
                 <ul className="navbar-nav ml-auto">
                    <li className="nav-item">
