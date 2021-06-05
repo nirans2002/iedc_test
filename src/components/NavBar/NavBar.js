@@ -7,7 +7,7 @@ const NavBar = () =>{
     return (
       <div className="nav-style" >
         
-        <NavBar className="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
         <div className="container">
         <Navbar.Brand  href="#high"><div className="nav-brand">Project10</div></Navbar.Brand>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
@@ -41,17 +41,10 @@ const NavBar = () =>{
                     <Button variant="primary" size='lg' className= "nav-button__signup">Sign Up</Button>
                      </li>       
                 </ul>
-                <span className="navbar-text actions"> 
-                    <Button variant="primary" size='lg' className= "nav-button__login">Login</Button>&nbsp;&nbsp;&nbsp;
-                    {/*<a className="login" href="#">Log In</a>*/}
-
-                    <Button variant="primary" size='lg' className= "nav-button__signup">Sign Up</Button>
-                    {/*<a className="btn btn-light action-button" role="button" href="#">Sign Up</a>*/}
-                    
-                </span>
+                
             </div>
         </div>
-    </NavBar>
+    </nav>
 
 
 
