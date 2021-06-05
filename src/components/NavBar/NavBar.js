@@ -6,7 +6,8 @@ const NavBar = () =>{
 
     return (
       <div className="nav-style" >
-        <Navbar bg="light" variant="light">
+        
+        <Navbar className="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
           <Navbar.Brand  href="#high"><div className="nav-brand">Project10</div></Navbar.Brand>
             <div className="container">
             <button data-toggle="collapse" className="navbar-toggler" data-target="#navcol-1">
