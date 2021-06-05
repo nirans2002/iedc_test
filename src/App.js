@@ -6,6 +6,7 @@ function App() {
     <NavBar></NavBar>
 
     <p> test if push works</p>
+    <p> testing fork... </p>
     </div>
     
   );

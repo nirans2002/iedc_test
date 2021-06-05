@@ -9,7 +9,7 @@ const NavBar = () =>{
         <Navbar bg="light" variant="light">
           <Navbar.Brand  href="#high"><div className="nav-brand">Project10</div></Navbar.Brand>
             <div className="container">
-              <div className="navbar-collapse">
+              <div className="collapse navbar-collapse" id="navcol-1">
                 <ul className="navbar-nav ml-auto">
                    <li className="nav-item">
                     <Nav.Link href="#" active >Home</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -28,7 +28,13 @@ const NavBar = () =>{
                       </li>
                    <li className="nav-item">
                     <Nav.Link href="#">Contact Us</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      </li>                   
+                      </li>
+                  <li className="nav-item">
+                    <Button variant="primary" size='lg' className= "nav-button__login">Login</Button>&nbsp;&nbsp;&nbsp;
+                      </li>
+                  <li className="nav-item">
+                    <Button variant="primary" size='lg' className= "nav-button__signup">Sign Up</Button>
+                     </li>                      
                 </ul>
             {/*
               <Nav.Link href="#" active >Home</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -37,9 +43,10 @@ const NavBar = () =>{
               <Nav.Link href="#">School Supplies</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <Nav.Link href="#">Donations</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <Nav.Link href="#">Contact Us</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </Nav>   */}
+            </Nav>   
             <Button variant="primary" size='lg' className= "nav-button__login">Login</Button>&nbsp;&nbsp;&nbsp;
             <Button variant="primary" size='lg' className= "nav-button__signup">Sign Up</Button>
+            */}
           </div>
           </div>
           
