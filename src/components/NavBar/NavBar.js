@@ -11,10 +11,24 @@ const NavBar = () =>{
             <div className="container">
               <div className="navbar-collapse">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                            <a className="nav-link active" href="index.html">Home</a>
-                        </li>
-
+                   <li className="nav-item">
+                    <Nav.Link href="#" active >Home</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </li>
+                   <li className="nav-item">
+                    <Nav.Link href="#">About</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     </li>
+                   <li className="nav-item">
+                    <Nav.Link href="#">E-Learning</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </li>
+                   <li className="nav-item">
+                    <Nav.Link href="#">School Supplies</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </li>
+                   <li className="nav-item">
+                    <Nav.Link href="#">Donations</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </li>
+                   <li className="nav-item">
+                    <Nav.Link href="#">Contact Us</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </li>                   
                 </ul>
             {/*
               <Nav.Link href="#" active >Home</Nav.Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
